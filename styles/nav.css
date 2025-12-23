@@ -1,24 +1,39 @@
-.navMenu{
-    margin: 0 0px;
+.navMenu {
+    margin: 0px;
     padding: 25px;
     gap: 36px;
     color: rgba(0, 255, 255, 0.523);
     background-color: #0B1212;
     display: flex;
     text-align: end;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    box-shadow: 0px 1px 30px orange;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid orange;
+
 }
 
-.list-item{
-    padding:10px;
+.list-item {
+    padding: 10px;
     list-style: none;
 }
 
-.list-item:hover{
+.list-item:hover {
     color: aqua;
     transition: 500ms;
 }
+
+
+
+
+@media (max-width: 770px){
+    .navMenu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}   

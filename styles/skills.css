@@ -1,0 +1,40 @@
+.skills {
+    background-color: #1b363c70;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid orange;
+}
+
+
+.skills h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+.skills-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+
+.skill-card {
+    background-color: black;
+    padding: 20px;
+    width: 100px;
+    box-shadow: 2px 2px 20px rgba(255, 166, 0, 0.104);
+    border-radius: 10px;
+}
+
+.skill-card i{
+    font-size: 2.5rem;
+    color: orange;
+}
