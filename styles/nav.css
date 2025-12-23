@@ -1,0 +1,24 @@
+.navMenu{
+    margin: 0 0px;
+    padding: 25px;
+    gap: 36px;
+    color: rgba(0, 255, 255, 0.523);
+    background-color: #0B1212;
+    display: flex;
+    text-align: end;
+    justify-content:flex-end;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    box-shadow: 15px 5px 30px orange;
+}
+
+.list-item{
+    padding:10px;
+    list-style: none;
+}
+
+.list-item:hover{
+    color: aqua;
+    transition: 500ms;
+}
