@@ -27,11 +27,19 @@
     font-family: poppins, sans-serif;
 }
 
+
+.p-project{
+    color: orange;
+}
+
 .project-card{
     margin-top: 30px;
     padding: 15px;
     background-color: rgba(64, 224, 208, 0.052);
-    border: 2px solid turquoise;
+    border-top: 2px solid turquoise;
+    border-left: 2px solid turquoise;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
     border-radius: 10px;
 }
 
@@ -53,24 +61,34 @@
     color: rgba(64, 224, 208, 0.553);
 }
 
-
-.project-card button{
-    margin: 10px 5px;
-    padding: 10px 10px;
-    border: none;
+.card-btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
     border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+.live{
+    background-color: turquoise;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 10px;
     font-size: .9rem;
 }
 
-.project-card button.live{
-    background-color: turquoise;
-    font-weight: 600;
-}
 
-
-.project-card button.source{
+.source{
+    border: none;
+    border-radius: 0px 10px 10px 0px;
     background-color: orange;
     font-weight: 600;
+    padding: 10px 10px;
+    font-size: .9rem;
 }
 
 
