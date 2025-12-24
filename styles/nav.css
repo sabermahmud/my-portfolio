@@ -11,9 +11,6 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
     border-bottom: 2px solid orange;
 
 }
@@ -27,6 +24,11 @@
     color: aqua;
     transition: 500ms;
 }
+
+.list-item a {
+    text-decoration: none;
+    color: inherit;
+}   
 
 
 

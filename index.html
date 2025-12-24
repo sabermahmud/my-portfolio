@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <!-- web title -->
     <title>Portfolio-Saber Mahmud</title>
 </head>
@@ -30,9 +31,9 @@
         <nav>
             <!-- navMenu -->
             <ul class="navMenu">
-                <li class="list-item">Home</li>
-                <li class="list-item">About us</li>
-                <li class="list-item">Our Projects</li>
+                <li class="list-item"><a href="#">Home</a></li>
+                <li class="list-item"><a href="#skills">Skills</a></li>
+                <li class="list-item" ><a href="#projects">Projects</a></li>
                 <li class="list-item">Contact us</li>
             </ul>
         </nav>
@@ -40,8 +41,8 @@
         <section class="banner">
             <div class="banner-content">
                 <h1 class="banner-heading">
-                    Hi, I’m Saber Mahmud
-                    A Frontend Web Developer (Fresher)
+                    Hi, I’m Saber Mahmud.<br>
+                    A Frontend Web Developer<br> (Fresher)
                 </h1>
                 <p>
                     I build clean, responsive websites using HTML, CSS, and JavaScript.
@@ -57,7 +58,7 @@
     <!-- main section -->
     <main>
         <!-- skills section -->
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2>My Tech Skills</h2>
             <div class="skills-card-container">
                 <div class="skill-card">
@@ -77,14 +78,70 @@
                     <h3>React</h3>
                 </div>
                 <div class="skill-card">
-                    <i class="fa-solid fa-database"></i>
-                    <h3>MongoDB</h3>
-                </div>
-                <div class="skill-card">
                     <i class="fa-solid fa-fire"></i>
                     <h3>Firebase</h3>
                 </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>MongoDB</h3>
+                </div>
+            </div>
+        </section>
+        <!-- projects section -->
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-card-container">
+                <!-- card one -->
+                <div class="project-card">
+                    
+                    <img src="assets/imgs/coffee-shop.jpg" alt="">
 
+                    <div>
+                        <h3>Coffee shop WebPage</h3>
+                        <p>
+                            <h4>Description:</h4>
+                            A responsive Coffee Shop Webpage Build with HTML, CSS, JavaScript and React.
+                        </p>
+                        <div>
+                            <button class="live">Live Demo</button>
+                            <button class="source">Source Code</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card two -->
+                <div class="project-card">
+                    
+                    <img src="assets/imgs/e-commerce.jpg" alt="">
+
+                    <div>
+                        <h3>E-commerce WebPage</h3>
+                        <p>
+                            <h4>Description:</h4>
+                            A responsive E-commerce Webpage Build with HTML, CSS, JavaScript and React.
+                        </p>
+                        <div>
+                            <button>Live Demo</button>
+                            <button>Source Code</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card three -->
+                <div class="project-card">
+                    
+                    <img src="assets/imgs/blog.jpg" alt="">
+
+                    <div>
+                        <h3>Blog WebPage</h3>
+                        <p>
+                            <h4>Description:</h4>
+                            A responsive Bloging Webpage Build with HTML, CSS, JavaScript and React.
+                        </p>
+                        <div>
+                            <button>Live Demo</button>
+                            <button>Source Code</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
